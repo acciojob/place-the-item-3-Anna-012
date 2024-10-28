@@ -1,2 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next row if needed */
+  justify-content: space-evenly; /* Evenly distributes items across the row */
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item {
+  flex: 1 1 150px; /* Items have a minimum width but can grow */
+  margin: 10px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
